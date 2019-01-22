@@ -14,5 +14,6 @@ get '/third' do
 end
 
 get '/cat' do
-    erb(:index)
+    #erb(:index)
+    erb (:index)
 end
